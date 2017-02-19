@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace RealEstateWebSystem.Controllers
+namespace uspProject.Controllers
 {
     public class HomeController : Controller
     {
@@ -26,14 +26,5 @@ namespace RealEstateWebSystem.Controllers
 
             return View();
         }
-
-        public ActionResult Ivaylo()
-        {
-            var ivaylo = "My name is Ivaylo";
-            return Content(ivaylo);
-        }
-
-
-
     }
 }
