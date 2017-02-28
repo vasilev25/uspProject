@@ -29,8 +29,8 @@ namespace RealEstateWebSystem.Controllers
 
         public ActionResult Ivaylo()
         {
-            var ivaylo = "My name is Ivaylo";
-            return Content(ivaylo);
+            ViewBag.Message = "My name is Ivaylo";
+            return View();
         }
 
 
